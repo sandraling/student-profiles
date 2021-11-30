@@ -1,0 +1,114 @@
+html, body, #app {
+    background-color: #efefef;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.student-profile__container {
+    height: 80%;
+    width: 80%;
+    max-width: 960px;
+    background-color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px #cfcfcf;
+    scrollbar-width: none;
+}
+
+.student-profile__container::-webkit-scrollbar {
+    display: none;
+}
+
+.student-profile__search-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.student-profile__search-bar {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.student-profile__list--loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -40px 0 0 -40px;
+}
+
+.student-profile__list-item {
+    align-items: flex-start;
+}
+
+.student-profile__avatar {
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+    border: 1px solid #cfcfcf;
+    border-radius: 50%;
+}
+
+.student-profile__main-body {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.student-profile__name {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.student-profile__description {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.student-profile__description > * {
+    padding-left: 20px;
+    margin: 3px 0;
+    display: flex;
+}
+
+.student-profile__description__subsection {
+    display: flex;
+    flex-direction: column;
+}
+
+.student-profile__subsection > * {
+    margin: 5px 0;
+}
+
+.student-profile__subsection__grades-table {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    line-height: normal;
+    width: 150px;
+}
+
+.student-profile__expand-btn {
+    width: 50px;
+    height: 50px;
+}
+
+.student-profile__subsection_tag-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.student-profile__subsection__tag-btn {
+    text-transform: lowercase;
+    width: 100px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.student-profile__subsection__tag-input {
+    width: 180px;
+}

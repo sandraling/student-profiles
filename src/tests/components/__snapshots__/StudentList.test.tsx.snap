@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentProfile /> renders default state successfully 1`] = `
+<WithStyles(ForwardRef(List))
+  aria-labelledby="List of students"
+  className="student-profile__list-container"
+>
+  <Component
+    addTagToStudent={[Function]}
+    expandOnClick={[Function]}
+    index={0}
+    key="student-list-item-1"
+    student={
+      Object {
+        "city": "Fushë-Muhurr",
+        "company": "Yadel",
+        "email": "iorton0@imdb.com",
+        "expanded": false,
+        "firstName": "Ingaberg",
+        "grades": Array [
+          78,
+          100,
+          92,
+          86,
+          89,
+          88,
+          91,
+          87,
+        ],
+        "id": 1,
+        "lastName": "Orton",
+        "pic": "https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/voluptasdictablanditiis.jpg",
+        "skill": "Oracle",
+        "tags": Array [],
+      }
+    }
+  />
+  <Component
+    addTagToStudent={[Function]}
+    expandOnClick={[Function]}
+    index={1}
+    key="student-list-item-2"
+    student={
+      Object {
+        "city": "Sanghan",
+        "company": "Avamm",
+        "email": "cboards1@weibo.com",
+        "expanded": false,
+        "firstName": "Clarke",
+        "grades": Array [
+          75,
+          89,
+          95,
+          93,
+          99,
+          82,
+          89,
+          76,
+        ],
+        "id": 2,
+        "lastName": "Boards",
+        "pic": "https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/voluptasautreprehenderit.jpg",
+        "skill": "Sports",
+        "tags": Array [],
+      }
+    }
+  />
+  <Component
+    addTagToStudent={[Function]}
+    expandOnClick={[Function]}
+    index={2}
+    key="student-list-item-3"
+    student={
+      Object {
+        "city": "Kugesi",
+        "company": "Skalith",
+        "email": "lromanet2@wired.com",
+        "expanded": false,
+        "firstName": "Laurens",
+        "grades": Array [
+          88,
+          90,
+          79,
+          82,
+          81,
+          99,
+          94,
+          73,
+        ],
+        "id": 3,
+        "lastName": "Romanet",
+        "pic": "https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/aspernaturnonsapiente.jpg",
+        "skill": "Employee Handbooks",
+        "tags": Array [],
+      }
+    }
+  />
+  <Component
+    addTagToStudent={[Function]}
+    expandOnClick={[Function]}
+    index={3}
+    key="student-list-item-24"
+    student={
+      Object {
+        "city": "Taupo",
+        "company": "Midel",
+        "email": "jwillougheyn@psu.edu",
+        "expanded": false,
+        "firstName": "Janice",
+        "grades": Array [
+          71,
+          80,
+          83,
+          99,
+          91,
+          95,
+          81,
+          75,
+        ],
+        "id": 24,
+        "lastName": "Willoughey",
+        "pic": "https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/dolordoloremassumenda.jpg",
+        "skill": "Kondor+",
+        "tags": Array [],
+      }
+    }
+  />
+</WithStyles(ForwardRef(List))>
+`;
+
+exports[`<StudentProfile /> renders successfully with filtered students 1`] = `
+<WithStyles(ForwardRef(List))
+  aria-labelledby="List of students"
+  className="student-profile__list-container"
+>
+  <Component
+    addTagToStudent={[Function]}
+    expandOnClick={[Function]}
+    index={0}
+    key="student-list-item-2"
+    student={
+      Object {
+        "city": "Sanghan",
+        "company": "Avamm",
+        "email": "cboards1@weibo.com",
+        "expanded": false,
+        "firstName": "Clarke",
+        "grades": Array [
+          75,
+          89,
+          95,
+          93,
+          99,
+          82,
+          89,
+          76,
+        ],
+        "id": 2,
+        "lastName": "Boards",
+        "pic": "https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/voluptasautreprehenderit.jpg",
+        "skill": "Sports",
+        "tags": Array [],
+      }
+    }
+  />
+  <Component
+    addTagToStudent={[Function]}
+    expandOnClick={[Function]}
+    index={1}
+    key="student-list-item-24"
+    student={
+      Object {
+        "city": "Taupo",
+        "company": "Midel",
+        "email": "jwillougheyn@psu.edu",
+        "expanded": false,
+        "firstName": "Janice",
+        "grades": Array [
+          71,
+          80,
+          83,
+          99,
+          91,
+          95,
+          81,
+          75,
+        ],
+        "id": 24,
+        "lastName": "Willoughey",
+        "pic": "https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/dolordoloremassumenda.jpg",
+        "skill": "Kondor+",
+        "tags": Array [],
+      }
+    }
+  />
+</WithStyles(ForwardRef(List))>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentProfile /> renders default state successfully 1`] = `
+<div
+  className="student-profile__container"
+>
+  <Component
+    setNameFilter={[Function]}
+    setTagFilter={[Function]}
+  />
+  <Component
+    addTagToStudent={[Function]}
+    expandOnClick={[Function]}
+    hiddenStudents={Array []}
+    students={Array []}
+  />
+</div>
+`;

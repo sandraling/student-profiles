@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentListFilter /> renders default state successfully 1`] = `
+<form
+  className="student-profile__search-form"
+>
+  <WithStyles(ForwardRef(Input))
+    className="student-profile__search-bar"
+    id="name-input"
+    onChange={[Function]}
+    placeholder="Search by name"
+  />
+  <WithStyles(ForwardRef(Input))
+    className="student-profile__search-bar"
+    id="tag-input"
+    onChange={[Function]}
+    placeholder="Search by tag"
+  />
+</form>
+`;

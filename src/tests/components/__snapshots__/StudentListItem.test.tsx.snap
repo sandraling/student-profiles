@@ -1,0 +1,786 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentListItem /> Component rendering renders for first item in list 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(ListItem))
+    className="student-profile__list-item"
+    key="student-1"
+  >
+    <WithStyles(ForwardRef(ListItemAvatar))>
+      <WithStyles(ForwardRef(Avatar))
+        alt="Profile picture of Ingaberg Orton"
+        className="student-profile__avatar"
+        src="https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/voluptasdictablanditiis.jpg"
+      />
+    </WithStyles(ForwardRef(ListItemAvatar))>
+    <WithStyles(ForwardRef(Typography))
+      className="student-profile__main-body"
+      component="div"
+      variant="body2"
+    >
+      <div
+        className="student-profile__name"
+      >
+        Ingaberg Orton
+      </div>
+      <span
+        className="student-profile__description"
+      >
+        <span>
+          Email: 
+          iorton0@imdb.com
+        </span>
+        <span>
+          Company: 
+          Yadel
+        </span>
+        <span>
+          Skill: 
+          Oracle
+        </span>
+        <span>
+          Average: 
+          88.875
+          %
+        </span>
+        <WithStyles(ForwardRef(Collapse))
+          in={false}
+          timeout="auto"
+          unmountOnExit={true}
+        >
+          <div
+            className="student-profile__subsection"
+          >
+            <table
+              className="student-profile__subsection__grades-table"
+              key="student-1-grade-table"
+            >
+              <tbody>
+                <tr
+                  key="student-1-grade-tr-0"
+                >
+                  <td>
+                    Test 0:
+                  </td>
+                  <td>
+                    78%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-1"
+                >
+                  <td>
+                    Test 1:
+                  </td>
+                  <td>
+                    100%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-2"
+                >
+                  <td>
+                    Test 2:
+                  </td>
+                  <td>
+                    92%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-3"
+                >
+                  <td>
+                    Test 3:
+                  </td>
+                  <td>
+                    86%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-4"
+                >
+                  <td>
+                    Test 4:
+                  </td>
+                  <td>
+                    89%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-5"
+                >
+                  <td>
+                    Test 5:
+                  </td>
+                  <td>
+                    88%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-6"
+                >
+                  <td>
+                    Test 6:
+                  </td>
+                  <td>
+                    91%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-7"
+                >
+                  <td>
+                    Test 7:
+                  </td>
+                  <td>
+                    87%
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div
+              className="student-profile__subsection__tag-div"
+            />
+            <form
+              onSubmit={[Function]}
+            >
+              <WithStyles(ForwardRef(Input))
+                className="add-tag-input student-profile__subsection__tag-input"
+                onChange={[Function]}
+                placeholder="Add a tag"
+                value=""
+              />
+            </form>
+          </div>
+        </WithStyles(ForwardRef(Collapse))>
+      </span>
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(IconButton))
+      aria-label="expand"
+      className="expand-btn student-profile__expand-btn"
+      onClick={[Function]}
+    >
+      <FontAwesomeIcon
+        border={false}
+        className=""
+        fixedWidth={false}
+        flip={null}
+        icon={
+          Object {
+            "icon": Array [
+              448,
+              512,
+              Array [],
+              "f067",
+              "M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z",
+            ],
+            "iconName": "plus",
+            "prefix": "fas",
+          }
+        }
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size={null}
+        spin={false}
+        swapOpacity={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(ListItem))>
+</Fragment>
+`;
+
+exports[`<StudentListItem /> Component rendering renders for subsequent item in list 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Divider)) />
+  <WithStyles(ForwardRef(ListItem))
+    className="student-profile__list-item"
+    key="student-1"
+  >
+    <WithStyles(ForwardRef(ListItemAvatar))>
+      <WithStyles(ForwardRef(Avatar))
+        alt="Profile picture of Ingaberg Orton"
+        className="student-profile__avatar"
+        src="https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/voluptasdictablanditiis.jpg"
+      />
+    </WithStyles(ForwardRef(ListItemAvatar))>
+    <WithStyles(ForwardRef(Typography))
+      className="student-profile__main-body"
+      component="div"
+      variant="body2"
+    >
+      <div
+        className="student-profile__name"
+      >
+        Ingaberg Orton
+      </div>
+      <span
+        className="student-profile__description"
+      >
+        <span>
+          Email: 
+          iorton0@imdb.com
+        </span>
+        <span>
+          Company: 
+          Yadel
+        </span>
+        <span>
+          Skill: 
+          Oracle
+        </span>
+        <span>
+          Average: 
+          88.875
+          %
+        </span>
+        <WithStyles(ForwardRef(Collapse))
+          in={false}
+          timeout="auto"
+          unmountOnExit={true}
+        >
+          <div
+            className="student-profile__subsection"
+          >
+            <table
+              className="student-profile__subsection__grades-table"
+              key="student-1-grade-table"
+            >
+              <tbody>
+                <tr
+                  key="student-1-grade-tr-0"
+                >
+                  <td>
+                    Test 0:
+                  </td>
+                  <td>
+                    78%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-1"
+                >
+                  <td>
+                    Test 1:
+                  </td>
+                  <td>
+                    100%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-2"
+                >
+                  <td>
+                    Test 2:
+                  </td>
+                  <td>
+                    92%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-3"
+                >
+                  <td>
+                    Test 3:
+                  </td>
+                  <td>
+                    86%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-4"
+                >
+                  <td>
+                    Test 4:
+                  </td>
+                  <td>
+                    89%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-5"
+                >
+                  <td>
+                    Test 5:
+                  </td>
+                  <td>
+                    88%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-6"
+                >
+                  <td>
+                    Test 6:
+                  </td>
+                  <td>
+                    91%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-7"
+                >
+                  <td>
+                    Test 7:
+                  </td>
+                  <td>
+                    87%
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div
+              className="student-profile__subsection__tag-div"
+            />
+            <form
+              onSubmit={[Function]}
+            >
+              <WithStyles(ForwardRef(Input))
+                className="add-tag-input student-profile__subsection__tag-input"
+                onChange={[Function]}
+                placeholder="Add a tag"
+                value=""
+              />
+            </form>
+          </div>
+        </WithStyles(ForwardRef(Collapse))>
+      </span>
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(IconButton))
+      aria-label="expand"
+      className="expand-btn student-profile__expand-btn"
+      onClick={[Function]}
+    >
+      <FontAwesomeIcon
+        border={false}
+        className=""
+        fixedWidth={false}
+        flip={null}
+        icon={
+          Object {
+            "icon": Array [
+              448,
+              512,
+              Array [],
+              "f067",
+              "M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z",
+            ],
+            "iconName": "plus",
+            "prefix": "fas",
+          }
+        }
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size={null}
+        spin={false}
+        swapOpacity={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(ListItem))>
+</Fragment>
+`;
+
+exports[`<StudentListItem /> Tagging feature calls addTagToStudent function to on form submit 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(ListItem))
+    className="student-profile__list-item"
+    key="student-1"
+  >
+    <WithStyles(ForwardRef(ListItemAvatar))>
+      <WithStyles(ForwardRef(Avatar))
+        alt="Profile picture of Ingaberg Orton"
+        className="student-profile__avatar"
+        src="https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/voluptasdictablanditiis.jpg"
+      />
+    </WithStyles(ForwardRef(ListItemAvatar))>
+    <WithStyles(ForwardRef(Typography))
+      className="student-profile__main-body"
+      component="div"
+      variant="body2"
+    >
+      <div
+        className="student-profile__name"
+      >
+        Ingaberg Orton
+      </div>
+      <span
+        className="student-profile__description"
+      >
+        <span>
+          Email: 
+          iorton0@imdb.com
+        </span>
+        <span>
+          Company: 
+          Yadel
+        </span>
+        <span>
+          Skill: 
+          Oracle
+        </span>
+        <span>
+          Average: 
+          88.875
+          %
+        </span>
+        <WithStyles(ForwardRef(Collapse))
+          in={false}
+          timeout="auto"
+          unmountOnExit={true}
+        >
+          <div
+            className="student-profile__subsection"
+          >
+            <table
+              className="student-profile__subsection__grades-table"
+              key="student-1-grade-table"
+            >
+              <tbody>
+                <tr
+                  key="student-1-grade-tr-0"
+                >
+                  <td>
+                    Test 0:
+                  </td>
+                  <td>
+                    78%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-1"
+                >
+                  <td>
+                    Test 1:
+                  </td>
+                  <td>
+                    100%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-2"
+                >
+                  <td>
+                    Test 2:
+                  </td>
+                  <td>
+                    92%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-3"
+                >
+                  <td>
+                    Test 3:
+                  </td>
+                  <td>
+                    86%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-4"
+                >
+                  <td>
+                    Test 4:
+                  </td>
+                  <td>
+                    89%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-5"
+                >
+                  <td>
+                    Test 5:
+                  </td>
+                  <td>
+                    88%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-6"
+                >
+                  <td>
+                    Test 6:
+                  </td>
+                  <td>
+                    91%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-7"
+                >
+                  <td>
+                    Test 7:
+                  </td>
+                  <td>
+                    87%
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div
+              className="student-profile__subsection__tag-div"
+            />
+            <form
+              onSubmit={[Function]}
+            >
+              <WithStyles(ForwardRef(Input))
+                className="add-tag-input student-profile__subsection__tag-input"
+                onChange={[Function]}
+                placeholder="Add a tag"
+                value="tag 1"
+              />
+            </form>
+          </div>
+        </WithStyles(ForwardRef(Collapse))>
+      </span>
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(IconButton))
+      aria-label="expand"
+      className="expand-btn student-profile__expand-btn"
+      onClick={[Function]}
+    >
+      <FontAwesomeIcon
+        border={false}
+        className=""
+        fixedWidth={false}
+        flip={null}
+        icon={
+          Object {
+            "icon": Array [
+              448,
+              512,
+              Array [],
+              "f067",
+              "M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z",
+            ],
+            "iconName": "plus",
+            "prefix": "fas",
+          }
+        }
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size={null}
+        spin={false}
+        swapOpacity={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(ListItem))>
+</Fragment>
+`;
+
+exports[`<StudentListItem /> Tagging feature calls addTagToStudent function to on form submit 2`] = `
+<Fragment>
+  <WithStyles(ForwardRef(ListItem))
+    className="student-profile__list-item"
+    key="student-1"
+  >
+    <WithStyles(ForwardRef(ListItemAvatar))>
+      <WithStyles(ForwardRef(Avatar))
+        alt="Profile picture of Ingaberg Orton"
+        className="student-profile__avatar"
+        src="https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/voluptasdictablanditiis.jpg"
+      />
+    </WithStyles(ForwardRef(ListItemAvatar))>
+    <WithStyles(ForwardRef(Typography))
+      className="student-profile__main-body"
+      component="div"
+      variant="body2"
+    >
+      <div
+        className="student-profile__name"
+      >
+        Ingaberg Orton
+      </div>
+      <span
+        className="student-profile__description"
+      >
+        <span>
+          Email: 
+          iorton0@imdb.com
+        </span>
+        <span>
+          Company: 
+          Yadel
+        </span>
+        <span>
+          Skill: 
+          Oracle
+        </span>
+        <span>
+          Average: 
+          88.875
+          %
+        </span>
+        <WithStyles(ForwardRef(Collapse))
+          in={false}
+          timeout="auto"
+          unmountOnExit={true}
+        >
+          <div
+            className="student-profile__subsection"
+          >
+            <table
+              className="student-profile__subsection__grades-table"
+              key="student-1-grade-table"
+            >
+              <tbody>
+                <tr
+                  key="student-1-grade-tr-0"
+                >
+                  <td>
+                    Test 0:
+                  </td>
+                  <td>
+                    78%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-1"
+                >
+                  <td>
+                    Test 1:
+                  </td>
+                  <td>
+                    100%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-2"
+                >
+                  <td>
+                    Test 2:
+                  </td>
+                  <td>
+                    92%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-3"
+                >
+                  <td>
+                    Test 3:
+                  </td>
+                  <td>
+                    86%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-4"
+                >
+                  <td>
+                    Test 4:
+                  </td>
+                  <td>
+                    89%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-5"
+                >
+                  <td>
+                    Test 5:
+                  </td>
+                  <td>
+                    88%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-6"
+                >
+                  <td>
+                    Test 6:
+                  </td>
+                  <td>
+                    91%
+                  </td>
+                </tr>
+                <tr
+                  key="student-1-grade-tr-7"
+                >
+                  <td>
+                    Test 7:
+                  </td>
+                  <td>
+                    87%
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div
+              className="student-profile__subsection__tag-div"
+            />
+            <form
+              onSubmit={[Function]}
+            >
+              <WithStyles(ForwardRef(Input))
+                className="add-tag-input student-profile__subsection__tag-input"
+                onChange={[Function]}
+                placeholder="Add a tag"
+                value=""
+              />
+            </form>
+          </div>
+        </WithStyles(ForwardRef(Collapse))>
+      </span>
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(IconButton))
+      aria-label="expand"
+      className="expand-btn student-profile__expand-btn"
+      onClick={[Function]}
+    >
+      <FontAwesomeIcon
+        border={false}
+        className=""
+        fixedWidth={false}
+        flip={null}
+        icon={
+          Object {
+            "icon": Array [
+              448,
+              512,
+              Array [],
+              "f067",
+              "M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z",
+            ],
+            "iconName": "plus",
+            "prefix": "fas",
+          }
+        }
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size={null}
+        spin={false}
+        swapOpacity={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(ListItem))>
+</Fragment>
+`;
